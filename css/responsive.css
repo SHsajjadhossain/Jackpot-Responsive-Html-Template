@@ -1,0 +1,1169 @@
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* ==========================================
+        nav-part responsive css start
+============================================= */
+
+    nav .nav-icon {
+        margin-right: 0;
+        width: 20%;
+    }
+
+    nav button i {
+        color: #fcb100;
+        border: 1px solid #fcb100;
+        border-radius: 5px;
+        padding: 7px 12px;
+        margin-top: 70px;
+    }
+
+    nav .main-menu {
+        background: #0b001b;
+        text-align: center;
+        padding-bottom: 35px;
+        z-index: 1;
+    }
+
+    nav .main-menu ul li {
+        margin-left: 50px;
+        padding-bottom: 10px;
+    }
+
+    nav .menu-button {
+        margin-top: 40px;
+    }
+
+    /* ==========================================
+        nav-part responsive css end
+============================================ */
+
+    /* ==========================================
+        banner-part responsive css start
+============================================ */
+
+    #banner-part .banner-img img {
+        display: none;
+    }
+
+    #banner-part .banner-text h4 {
+        margin: 0;
+        margin-bottom: -35px;
+        text-align: center;
+    }
+
+    #banner-part .banner-text .number {
+        font-size: 190px;
+    }
+
+    #banner-part .banner-text .banner-details {
+        width: auto;
+        margin-top: -40px;
+    }
+
+    #banner-part .banner-text a {
+        margin-left: 85px;
+    }
+
+    /* ==========================================
+        banner-part responsive css end
+============================================ */
+
+    /* ==========================================
+        enjoy-part responsive css start
+============================================ */
+
+    #enjoy-part .enjoy-clip {
+        clip-path: none;
+        position: inherit;
+    }
+
+    /* ==========================================
+        enjoy-part responsive css end
+============================================ */
+
+    /* ==========================================
+        games-part responsive css start
+============================================ */
+
+    #games-part {
+        margin-top: -150px;
+    }
+
+    #games-part .title {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    #games-part .games-item {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    /* ==========================================
+        games-part responsive css end
+============================================ */
+
+    /* ==========================================
+        unlock-part responsive css start
+============================================ */
+
+    #unlock-part {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    #unlock-part .unlock-item img {
+        display: none;
+    }
+
+    #unlock-part .unlock-item .title {
+        padding-top: 50px;
+    }
+
+    #unlock-part .unlock-item .title h3 {
+        font-size: 40px;
+    }
+
+    #unlock-part .unlock-item p {
+        width: auto;
+        margin-top: 35px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #unlock-part .unlock-item a {
+        margin-left: 75px;
+    }
+
+    /* ==========================================
+        unlock-part responsive css end
+============================================ */
+
+    /* ==========================================
+        pricing-part responsive css start
+============================================ */
+
+    #pricing-part .title h3 {
+        font-size: 40px;
+    }
+
+    #pricing-part .pricing-plan {
+        margin-bottom: 50px;
+    }
+
+    #pricing-part .pricing-plan a {
+        font-size: 19px;
+    }
+
+    /* ==========================================
+        pricing-part responsive css end
+============================================ */
+
+    /* ==============================================
+        tournament-part responsive css start
+================================================= */
+
+    #tournament-part .tournament-left {
+        margin-top: 50px;
+    }
+
+    #tournament-part .tournament-left .title h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    @keyframes question {
+        0% {
+            left: 0;
+        }
+
+        100% {
+            left: 300px;
+        }
+    }
+
+    #tournament-part .tournament-left .tour-left .card button span {
+        font-size: 13px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button i {
+        margin-left: 5px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-three {
+        margin-left: 40px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-four {
+        margin-left: 40px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card .card-body p {
+        width: auto;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-two {
+        margin-left: 248px;
+        margin-top: 10px;
+    }
+
+    /* #tournament-part .tournament-right .scroll-details .member-details p{
+        display: inline;
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    #tournament-part .tournament-right .scroll-details .member-details img{
+        margin-left: 125px;
+        margin-top: -45px;
+    }
+
+    #tournament-part .tournament-right .scroll-details .member-details .scroll-price{
+        margin-left: 140px;
+    }
+
+    #tournament-part .tournament-right .scroll-details .member-details .price1{
+        display: inline;
+        margin-left: 180px;
+        margin-top: -79px;
+    } */
+
+    /* ==============================================
+        tournament-part responsive css end
+================================================= */
+
+    /* ==============================================
+        payment-part responsive css start
+================================================= */
+
+    #payment-part .payment-left h2 {
+        margin-left: 15px;
+    }
+
+    #payment-part .payment-right {
+        margin-left: 0;
+    }
+
+    #payment-part .payment-right h2 {
+        margin-left: 30px;
+    }
+
+    #payment-part .payment-right .img {
+        text-align: center;
+    }
+
+    #payment-part .payment-right .img img {
+        margin-bottom: 15px;
+    }
+
+    /* ==============================================
+        payment-part responsive css end
+================================================= */
+
+    /* ==============================================
+        footer-part responsive css start
+================================================= */
+
+    #footer-part .footer-item p {
+        width: auto;
+        text-align: center;
+    }
+
+    #footer-part .footer-item .icon {
+        text-align: center;
+    }
+
+    #footer-part .footer-item .footer-about {
+        margin-left: 45px;
+    }
+
+    #footer-part .footer-item .security-title {
+        margin-left: 45px;
+    }
+
+    #footer-part .footer-item .security-info {
+        display: block;
+    }
+
+    #footer-part .footer-item .security-info .img {
+        text-align: center;
+    }
+
+    #footer-part .footer-item .security-info .text {
+        text-align: center;
+    }
+
+    #footer-part .footer-item .security-info .text p {
+        padding-left: 0;
+    }
+
+    /* ==============================================
+        footer-part responsive css end
+================================================= */
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* ==========================================
+            nav-part responsive css start
+    ============================================= */
+
+    nav .nav-icon {
+        margin-right: 0;
+        width: 20%;
+    }
+
+    nav button i {
+        color: #fcb100;
+        border: 1px solid #fcb100;
+        border-radius: 5px;
+        padding: 7px 12px;
+        margin-top: 70px;
+    }
+
+    nav .main-menu {
+        background: #0b001b;
+        text-align: center;
+        padding-bottom: 35px;
+        z-index: 1;
+    }
+
+    nav .main-menu ul li {
+        margin-left: 50px;
+        padding-bottom: 10px;
+    }
+
+    nav .menu-button {
+        margin-top: 40px;
+    }
+
+    /* ==========================================
+            nav-part responsive css end
+    ============================================ */
+
+    /* ==========================================
+            banner-part responsive css start
+    ============================================ */
+
+    #banner-part .banner-img img {
+        display: none;
+    }
+
+    #banner-part .banner-text h4 {
+        margin: 0;
+        margin-bottom: -35px;
+        text-align: center;
+    }
+
+    #banner-part .banner-text .number {
+        font-size: 190px;
+        text-align: center;
+    }
+
+    #banner-part .banner-text .banner-details {
+        width: auto;
+        margin-top: -40px;
+    }
+
+    #banner-part .banner-text a {
+        margin-left: 200px;
+    }
+
+    /* ==========================================
+            banner-part responsive css end
+    ============================================ */
+
+    /* ==========================================
+            enjoy-part responsive css start
+    ============================================ */
+
+    #enjoy-part .enjoy-clip {
+        clip-path: none;
+        position: inherit;
+    }
+
+    #enjoy-part .enjoy-contain {
+        padding: 0;
+    }
+
+    /* ==========================================
+            enjoy-part responsive css end
+    ============================================ */
+
+    /* ==========================================
+            games-part responsive css start
+    ============================================ */
+
+    #games-part {
+        margin-top: -150px;
+    }
+
+    #games-part .title {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    #games-part .games-item {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    #games-part .games-item .overlay h5{
+        margin-top: 180px;
+    }
+
+    /* ==========================================
+            games-part responsive css end
+    ============================================ */
+
+    /* ==========================================
+            unlock-part responsive css start
+    ============================================ */
+
+    #unlock-part {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    #unlock-part .unlock-item img {
+        display: none;
+    }
+
+    #unlock-part .unlock-item .title {
+        padding-top: 50px;
+    }
+
+    #unlock-part .unlock-item .title h3 {
+        font-size: 40px;
+    }
+
+    #unlock-part .unlock-item p {
+        width: auto;
+        margin-top: 35px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #unlock-part .unlock-item a {
+        margin-left: 190px;
+    }
+
+    /* ==========================================
+            unlock-part responsive css end
+    ============================================ */
+
+    /* ==========================================
+            pricing-part responsive css start
+    ============================================ */
+
+    #pricing-part .title h3 {
+        font-size: 40px;
+    }
+
+    #pricing-part .pricing-plan {
+        margin-bottom: 50px;
+    }
+
+    #pricing-part .pricing-plan a {
+        font-size: 19px;
+    }
+
+    /* ==========================================
+            pricing-part responsive css end
+    ============================================ */
+
+    /* ==============================================
+            tournament-part responsive css start
+    ================================================= */
+
+    #tournament-part .tournament-left {
+        margin-top: 50px;
+    }
+
+    #tournament-part .tournament-left .title h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    @keyframes question {
+        0% {
+            left: 0;
+        }
+
+        100% {
+            left: 520px;
+        }
+    }
+
+    #tournament-part .tournament-left .tour-left .card button span {
+        font-size: 18px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button i {
+        margin-left: 125px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-three {
+        margin-left: 170px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-four {
+        margin-left: 170px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card .card-body p {
+        width: auto;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-two {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    #tournament-part .tournament-right .title h3 {
+        text-align: inherit;
+        margin-left: 75px;
+    }
+
+    #tournament-part .tournament-right .title h3::after {
+        left: -30px;
+    }
+
+    @keyframes tournament {
+        0% {
+            left: 40px;
+        }
+
+        100% {
+            left: 440px;
+        }
+    }
+
+    #tournament-part .tournament-right .scroll-details .member-details p{
+        font-size: 13px;
+    }
+
+    #tournament-part .tournament-right .scroll-details .member-details .scroll-price{
+        padding-left: 20px;
+    }
+
+    /* ==============================================
+            tournament-part responsive css end
+    ================================================= */
+
+    /* ==============================================
+            countdown-part responsive css start
+    ================================================= */
+
+    #tournament-part .tournament-right .counter-item .count-down {
+        margin-top: 50px;
+    }
+
+    /* ==============================================
+            countdown-part responsive css end
+    ================================================= */
+
+    /* ==============================================
+            payment-part responsive css start
+    ================================================= */
+
+    #payment-part .payment-left h2 {
+        text-align: center;
+    }
+
+    #payment-part .payment-right {
+        margin-left: 0;
+    }
+
+    #payment-part .payment-right h2 {
+        text-align: center;
+    }
+
+    #payment-part .payment-right .img {
+        text-align: center;
+    }
+
+    #payment-part .payment-right .img img {
+        margin-bottom: 15px;
+    }
+
+    /* ==============================================
+            payment-part responsive css end
+    ================================================= */
+
+    /* ==============================================
+            footer-part responsive css start
+    ================================================= */
+
+    #footer-part .footer-item p {
+        width: auto;
+        text-align: center;
+    }
+
+    #footer-part .footer-item .icon {
+        text-align: center;
+    }
+
+    #footer-part .footer-item .footer-about {
+        text-align: center;
+    }
+
+    #footer-part .footer-item .security-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #footer-part .footer-item .security-info {
+        display: block;
+    }
+
+    #footer-part .footer-item .security-info .img {
+        text-align: center;
+    }
+
+    #footer-part .footer-item .security-info .text {
+        text-align: center;
+    }
+
+    #footer-part .footer-item .security-info .text p {
+        padding-left: 0;
+    }
+
+    /* ==============================================
+            footer-part responsive css end
+    ================================================= */
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* ==========================================
+                nav-part responsive css start
+        ============================================= */
+
+    nav .nav-icon {
+        margin-right: 0;
+        width: 20%;
+    }
+
+    nav button i {
+        color: #fcb100;
+        border: 1px solid #fcb100;
+        border-radius: 5px;
+        padding: 7px 12px;
+        margin-top: 70px;
+    }
+
+    nav .main-menu {
+        background: #0b001b;
+        text-align: center;
+        padding-bottom: 35px;
+        z-index: 1;
+    }
+
+    nav .main-menu ul li {
+        margin-left: 50px;
+        padding-bottom: 10px;
+    }
+
+    nav .menu-button {
+        margin-top: 40px;
+    }
+
+    /* ==========================================
+                nav-part responsive css end
+        ============================================ */
+
+    /* ==========================================
+                banner-part responsive css start
+        ============================================ */
+
+    #banner-part{
+        padding-bottom: 100px;
+    }
+
+    #banner-part .banner-img img {
+        display: none;
+    }
+
+    #banner-part .banner-text h4 {
+        margin: 0;
+        margin-bottom: -35px;
+        text-align: center;
+    }
+
+    #banner-part .banner-text .number {
+        font-size: 190px;
+        text-align: center;
+    }
+
+    #banner-part .banner-text .banner-details {
+        width: auto;
+        margin-top: -40px;
+    }
+
+    #banner-part .banner-text a {
+        margin-left: 290px;
+    }
+
+    /* ==========================================
+                banner-part responsive css end
+        ============================================ */
+
+    /* ==========================================
+                enjoy-part responsive css start
+        ============================================ */
+
+    #enjoy-part .enjoy-clip {
+        clip-path: none;
+        position: inherit;
+        top: 0;
+    }
+
+    #enjoy-part .enjoy-contain {
+        padding: 0;
+    }
+
+    /* ==========================================
+                enjoy-part responsive css end
+        ============================================ */
+
+    /* ==========================================
+                games-part responsive css start
+        ============================================ */
+
+    #games-part {
+        margin-top: 0;
+    }
+
+    #games-part .title {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    #games-part .games-item {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    #games-part .games-item .overlay h5 {
+        margin-top: 45px;
+    }
+
+    #games-part .games-item .overlay a{
+        font-size: 18px;
+        padding: 10px 15px;
+        margin-top: 25px;
+    }
+
+    /* ==========================================
+                games-part responsive css end
+        ============================================ */
+
+    /* ==========================================
+                unlock-part responsive css start
+        ============================================ */
+
+    #unlock-part {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    #unlock-part .unlock-item img {
+        display: none;
+    }
+
+    #unlock-part .unlock-item .title {
+        padding-top: 50px;
+    }
+
+    #unlock-part .unlock-item .title h3 {
+        font-size: 40px;
+    }
+
+    #unlock-part .unlock-item p {
+        width: auto;
+        margin-top: 35px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #unlock-part .unlock-item a {
+        margin-left: 280px;
+    }
+
+    /* ==========================================
+                unlock-part responsive css end
+        ============================================ */
+
+    /* ==========================================
+                pricing-part responsive css start
+        ============================================ */
+
+    #pricing-part .title h3 {
+        font-size: 40px;
+    }
+
+    #pricing-part .pricing-plan {
+        margin-bottom: 50px;
+    }
+
+    #pricing-part .pricing-plan a {
+        font-size: 19px;
+    }
+
+    /* ==========================================
+                pricing-part responsive css end
+        ============================================ */
+
+    /* ==============================================
+                tournament-part responsive css start
+        ================================================= */
+
+    #tournament-part .tournament-left {
+        margin-top: 50px;
+    }
+
+    #tournament-part .tournament-left .title h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    @keyframes question {
+        0% {
+            left: 0;
+        }
+
+        100% {
+            left: 700px;
+        }
+    }
+
+    #tournament-part .tournament-left .tour-left .card button span {
+        font-size: 18px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button i {
+        margin-left: 285px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-three {
+        margin-left: 329px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-four {
+        margin-left: 329px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card .card-body p {
+        width: auto;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-two {
+        margin-left: 209px;
+        margin-top: 10px;
+    }
+
+    #tournament-part .tournament-right .title h3 {
+        text-align: center;
+    }
+
+    @keyframes tournament {
+        0% {
+            left: 0px;
+        }
+
+        100% {
+            left: 650px;
+        }
+    }
+
+    /* ==============================================
+                tournament-part responsive css end
+        ================================================= */
+
+    /* ==============================================
+                countdown-part responsive css start
+        ================================================= */
+
+    #tournament-part .tournament-right .counter-item .count-down {
+        margin-top: 50px;
+    }
+
+    /* ==============================================
+                countdown-part responsive css end
+        ================================================= */
+
+    /* ==============================================
+                payment-part responsive css start
+        ================================================= */
+
+    #payment-part .payment-left h2 {
+        text-align: center;
+    }
+
+    #payment-part .payment-right {
+        margin-left: 0;
+    }
+
+    #payment-part .payment-right h2 {
+        text-align: center;
+    }
+
+    #payment-part .payment-right .img {
+        text-align: center;
+    }
+
+    #payment-part .payment-right .img img {
+        margin-bottom: 15px;
+    }
+
+    /* ==============================================
+                payment-part responsive css end
+        ================================================= */
+
+    /* ==============================================
+                footer-part responsive css start
+        ================================================= */
+
+    #footer-part .footer-item p {
+        width: auto;
+        text-align: center;
+    }
+
+    #footer-part .footer-item .icon {
+        text-align: center;
+    }
+
+    #footer-part .footer-item .footer-about {
+        text-align: center;
+    }
+
+    #footer-part .footer-item .security-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #footer-part .footer-item .security-info {
+        justify-content: center;
+    }
+
+    /* ==============================================
+                footer-part responsive css end
+        ================================================= */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* ==========================================
+                nav-part responsive css start
+        ============================================= */
+
+    nav ul li {
+        margin-right: 25px;
+    }
+
+    /* ==========================================
+                nav-part responsive css end
+        ============================================= */
+
+    /* ==========================================
+                banner-part responsive css start
+        ============================================= */
+
+    #banner-part .banner-img img {
+        width: 100%;
+        margin-top: 95px;
+        margin-left: 0;
+    }
+
+    #banner-part .banner-text .number {
+        font-size: 300px;
+    }
+
+    /* ==========================================
+                banner-part responsive css end
+        ============================================= */
+
+    /* ==========================================
+            enjoy-part responsive css start
+        ============================================= */
+
+    #enjoy-part .item .enjoy-details .enjoy-text {
+        font-size: 15px;
+    }
+
+    /* ==========================================
+            enjoy-part responsive css end
+        ============================================= */
+
+    /* ==========================================
+             games-part responsive css start
+    ============================================= */
+
+    #games-part .games-item .overlay h5{
+        margin-top: 80px;
+    }
+
+    #games-part .games-item .overlay a{
+        font-size: 18px;
+    }
+
+    /* ==========================================
+            games-part responsive css end
+    ============================================= */
+
+    /* ==========================================
+            unlock-part responsive css start
+    ============================================= */
+
+    #unlock-part{
+        padding-bottom: 50px;
+    }
+
+    #unlock-part .unlock-item img {
+        width: 100%;
+    }
+
+    #unlock-part .unlock-item p {
+        width: auto;
+        text-align: left;
+        margin-left: 70px;
+    }
+
+    #unlock-part .unlock-item a {
+        margin-left: 70px;
+    }
+
+    /* ==========================================
+            unlock-part responsive css end
+    ============================================= */
+
+    /* ==========================================
+            pricing-part responsive css start
+    ============================================= */
+
+    #pricing-part .pricing-plan a {
+        font-size: 19px;
+    }
+
+    /* ==========================================
+            pricing-part responsive css end
+    ============================================= */
+
+    /* ==========================================
+            tournament-part responsive css start
+    ============================================= */
+
+    @keyframes question {
+        0% {
+            left: 0;
+        }
+
+        100% {
+            left: 470px;
+        }
+    }
+
+    @keyframes tournament {
+        0% {
+            left: 0px;
+        }
+
+        100% {
+            left: 420px;
+        }
+    }
+
+    #tournament-part .tournament-left .tour-left .card button span{
+        font-size: 13px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button i{
+        margin-left: 160px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-two{
+        margin-left: 104px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-three{
+        margin-left: 191px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card button .tour-four{
+        margin-left: 191px;
+    }
+
+    #tournament-part .tournament-left .tour-left .card .card-body p{
+        width: auto;
+    }
+
+    #tournament-part .tournament-right .counter-item .count-down{
+        padding-left: 10px;
+        padding-right: 60px;
+    }
+
+    #tournament-part .tournament-right .scroll-details .member-details p{
+        font-size: 13px;
+        margin-left: 0;
+    }
+
+    /* ==========================================
+            tournament-part responsive css end
+    ============================================= */
+
+    /* ==========================================
+            payment-part responsive css start
+    ============================================= */
+
+    #payment-part .payment-right{
+        margin-left: 80px;
+    }
+
+    #payment-part .payment-right .img img{
+        margin-right: 10px;
+    }
+
+    /* ==========================================
+            payment-part responsive css end
+    ============================================= */
+
+    /* ==========================================
+            footer-part responsive css start
+    ============================================= */
+
+    #footer-part .footer-item p{
+        width: auto;
+    }
+
+    /* ==========================================
+            footer-part responsive css end
+    ============================================= */
+
+    /* ==========================================
+            designer-part responsive css start
+    ============================================= */
+
+    @keyframes designer-animation{
+        0%{
+            left: 0;
+        }
+        
+        100%{
+            left: 96%;
+        }
+    }
+
+    /* ==========================================
+            designer-part responsive css end
+    ============================================= */
+
+
+}

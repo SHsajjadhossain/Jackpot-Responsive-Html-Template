@@ -1,0 +1,1124 @@
+/* =======================================
+        common css start
+========================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a,
+a:focus,
+a:hover{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    padding-top: 180px;
+}
+
+.title h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    background: linear-gradient(to top, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fdb125;
+    text-align: center;
+    filter: drop-shadow(20px 20px 40px #4d0148);
+}
+
+/* =======================================
+        common css end
+========================================== */
+
+/* =======================================
+        nav-part css start
+========================================== */
+
+nav{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul{
+    margin-top: 55px;
+}
+
+nav ul li{
+    margin-right: 50px;
+}
+
+nav ul li a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #944bff;
+    transition: .5s;
+    padding: 0 !important;
+}
+
+nav ul li a:hover{
+    color: #ff39dc;
+}
+
+nav .menu-button{
+    margin-top: 55px;
+}
+
+nav .menu-button a{
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #9e4efc;
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    border-radius: 5px;
+    padding: 14px 25px;
+    margin-left: 20px;
+    transition: .5s;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+    box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+
+}
+
+nav .menu-button a:hover{
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102,19,85,1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102,19,85,1);
+    box-shadow: 0px 6px 0px 0px rgba(102,19,85,1);
+}
+
+/* =======================================
+        nav-part css end
+========================================== */
+
+/* =======================================
+        banner-part css start
+========================================== */
+
+#banner-part{
+    background: #150035;
+    padding-top: 180px;
+    padding-bottom: 215px;
+}
+
+#banner-part .banner-img img{
+    margin-left: -225px;
+}
+
+#banner-part .banner-text h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 105px;
+    margin-bottom: -85px;
+}
+
+#banner-part .banner-text .number{
+    font-family: 'Anton', sans-serif;
+    font-size: 331px;
+    font-weight: 400;
+    color: #fdb125;
+    background: linear-gradient(to bottom, #fdb125 45%, #e07e1e 48%, #fcb100 70% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: drop-shadow( 0 0 40px #4d0148);
+}
+
+#banner-part .banner-text .banner-details{
+    width: 455px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -65px;
+}
+
+#banner-part .banner-text a{
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #9e4efc;
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    border-radius: 5px;
+    padding: 14px 25px;
+    margin-top: 30px;
+    margin-left: 155px;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+    box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+    transition: .5s;
+}
+
+#banner-part .banner-text a:hover{
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102,19,85,1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102,19,85,1);
+    box-shadow: 0px 6px 0px 0px rgba(102,19,85,1);
+}
+
+
+/* =======================================
+        banner-part css end
+========================================== */
+
+/* =======================================
+        enjoy-part css start
+========================================== */
+
+#enjoy-part .enjoy-clip{
+    clip-path: polygon(0 15%, 100% 8%, 100% 100%, 0% 100%);
+    width: 100%;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; */
+}
+
+#enjoy-part .item1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#enjoy-part .item3{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#enjoy-part .item{
+    background: linear-gradient(to bottom,#9e4efc 0%, #570dc8 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 52px;
+    padding-bottom: 40px;
+    -webkit-box-shadow: inset 10px 0px 50px 0px rgba(31,7,67,0.5);
+    -moz-box-shadow: inset 10px 0px 50px 0px rgba(31,7,67,0.5);
+    box-shadow: inset 10px 0px 50px 0px rgba(31,7,67,0.5);
+}
+
+#enjoy-part .item .enjoy-details .enjoy-no{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    background: linear-gradient(to bottom, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fdb125;
+    text-align: center;
+    filter: drop-shadow(10px 0 15px rgb(17, 0, 16, .4));
+}
+
+#enjoy-part .item .enjoy-details h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-shadow: -4px 5px 2px rgba(88, 19, 184, 1);
+}
+
+#enjoy-part .item .enjoy-details .enjoy-text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* =======================================
+        enjoy-part css end
+========================================== */
+
+/* =======================================
+        games-part css start
+========================================== */
+
+#games-part{
+    background: #0b001b;
+}
+
+#games-part .games-item{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#games-part .games-item img{
+    width: 100%;
+}
+
+#games-part .games-item .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(21, 0, 53, .85);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transform: scale(0);
+    transition: .5s;
+}
+
+#games-part .games-item .overlay a{
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    color: #ffffff;
+    padding: 14px 25px;
+    border-radius: 5px;
+    margin-top: 45px;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    filter: drop-shadow(0 6px 0  #3a0090);
+    transition: .5s;
+}
+
+#games-part .games-item .overlay h5{
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 130px;
+}
+
+#games-part .games-item:hover .overlay{
+    transform: scale(1);
+}
+
+#games-part .games-item .overlay a:hover{
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    filter: drop-shadow(0 6px 0 #661355);
+}
+
+/* =======================================
+        games-part css end
+========================================== */
+
+/* =======================================
+        unlock-part css start
+========================================== */
+
+#unlock-part{
+    background: #150035;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#unlock-part .unlock-item .title{
+    padding-top: 95px;
+}
+
+#unlock-part .unlock-item p{
+    width: 570px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 115px;
+}
+
+#unlock-part .unlock-item .unlock-text{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#unlock-part .unlock-item a{
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    color: #ffffff;
+    padding: 14px 25px;
+    border-radius: 5px;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    filter: drop-shadow(0 6px 0  #3a0090);
+    margin-left: 115px;
+    transition: .5s;
+}
+
+#unlock-part .unlock-item a:hover{
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    filter: drop-shadow(0 6px 0 #661355);
+}
+
+/* =======================================
+        unlock-part css end
+========================================== */
+
+/* =======================================
+        pricing-part css start
+========================================== */
+
+#pricing-part{
+    background: #0b001b;
+    padding-bottom: 100px;
+}
+
+#pricing-part .title{
+    padding-top: 100px;
+}
+
+#pricing-part .pricing-plan{
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    border-radius: 5px;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    position: relative;
+    transition: .5s;
+}
+
+#pricing-part .pricing-plan .pricing-featured{
+    width: 100%;
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    filter: drop-shadow(0 6px 0 #661355);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 20px 0;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+#pricing-part .pricing-plan .pricing-featured h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: -2px 3px 0px rgba(102, 19, 85, 1);
+}
+
+#pricing-part .pricing-plan h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: -2px 4px 0px rgba(88, 19, 184, 1);
+    padding-top: 60px;
+    text-align: center;
+    transition: .5s;
+}
+
+#pricing-part .pricing-plan h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pricing-part .pricing-plan p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#pricing-part .pricing-plan p::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #6427b5;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+#pricing-part .pricing-plan ul{
+    text-align: center;
+}
+
+#pricing-part .pricing-plan ul li{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+#pricing-part .pricing-plan a{
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    color: #ffffff;
+    padding: 14px 25px;
+    border-radius: 5px;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    filter: drop-shadow(0 6px 0  #3a0090);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+
+#pricing-part .pricing-plan:hover{
+    transform: translateY(30px);
+}
+
+#pricing-part .pricing-plan:hover .pricing-featured{
+    opacity: 1;
+}
+
+#pricing-part .pricing-plan:hover a{
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    filter: drop-shadow(0 6px 0 #661355);
+}
+
+/* =======================================
+        pricing-part css end
+========================================== */
+
+/* =======================================
+        tournament-part css start
+========================================== */
+
+#tournament-part{
+    background: #150035;
+    padding-bottom: 100px;
+}
+
+#tournament-part .tournament-left{
+    margin-top: 100px;
+}
+
+#tournament-part .tournament-left .title{
+    padding: 0;
+    position: relative;
+}
+
+#tournament-part .tournament-left .title h3{
+    font-size: 40px;
+    position: relative;
+    text-align: start;
+}
+
+#tournament-part .tournament-left .title h3::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+#tournament-part .tournament-left .title .tournament-animation{
+    width: 55px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(58,16,123,0.2) 12%, rgba(97,22,210,1) 51%, rgba(58,16,123,0.2) 87%);    
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    animation: question 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes question {
+    0% {left: 0;}
+    100% {left: 520px;}
+  }
+
+#tournament-part .tournament-left .tour-left{
+      margin-top: 60px;
+  }
+
+#tournament-part .tournament-left .tour-left .add_border{
+    border: 1px solid #fcb100;
+}
+
+#tournament-part .tournament-left .tour-left .card{
+      background: #150035;
+ }
+
+#tournament-part .tournament-left .tour-left .card .card-body{
+    background: #150035;
+  }
+
+#tournament-part .tournament-left .tour-left .card .card-header{
+    padding: 0;
+    border: none;
+}
+
+#tournament-part .tournament-left .tour-left .card button{
+    width: 100%;
+    text-decoration: none;
+    box-shadow: none;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+
+#tournament-part .tournament-left .tour-left .card button span{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fffeff;
+}
+
+#tournament-part .tournament-left .tour-left .card button i{
+    font-size: 20px;
+    color: #fffeff;
+    margin-left: 125px;
+}
+
+#tournament-part .tournament-left .tour-left .card button .tour-two{
+    margin-left: 48px;
+}
+
+#tournament-part .tournament-left .tour-left .card button .tour-three{
+    margin-left: 168px;
+}
+
+#tournament-part .tournament-left .tour-left .card button .tour-four{
+    margin-left: 168px;
+}
+
+#tournament-part .tournament-left .tour-left .card .card-body p{
+    width: 531px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fffeff;
+    line-height: 26px;
+}
+
+#tournament-part .tournament-right{
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+#tournament-part .tournament-right .title{
+    padding: 0;
+    position: relative;
+}
+
+#tournament-part .tournament-right .title h3{
+    font-size: 40px;
+    position: relative;
+    text-align: start;
+}
+
+#tournament-part .tournament-right .title h3::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+#tournament-part .tournament-right .title .tournament-animation{
+    width: 55px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(58,16,123,0.2) 12%, rgba(97,22,210,1) 51%, rgba(58,16,123,0.2) 87%);    
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    animation: tournament 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes tournament {
+    0% {left: 0;}
+    100% {left: 465px;}
+  }
+
+#tournament-part .tournament-right .counter-item h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 95px;
+  }
+
+#tournament-part .tournament-right .counter-item .count-down{
+    margin-top: 60px;
+    border: 1px solid #fcb100;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+#tournament-part .tournament-right .counter-item .count-down p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fcb100;
+    text-align: center;
+}
+
+#tournament-part .tournament-right .scroll-details{
+    width: 100%;
+    height: 320px;
+    margin-top: 55px;
+    position: relative;
+}
+
+#tournament-part .tournament-right .scroll-details .scroll-gap{
+    margin-bottom: 40px;
+}
+
+#tournament-part .tournament-right .scroll-details .member-details p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+#tournament-part .tournament-right .scroll-details .member-details .scroll-price{
+    padding-left: 15px;
+}
+
+#tournament-part .tournament-right .scroll-details .member-details img{
+    margin-left: 50px;
+}
+
+#tournament-part .tournament-right .scroll-details .scroll-gap::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 45px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap1::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 110px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap2::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 175px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap3::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 240px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap4::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 305px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap5::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 365px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap6::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 430px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap7::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 495px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap8::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 560px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap9::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 625px;
+    left: 28px;
+}
+
+#tournament-part .tournament-right .scroll-details .gap10::after{
+    content: "";
+    width: 460px;
+    height: 3px;
+    background: linear-gradient(to bottom, #080007 67%, #2f0a5d 67%);
+    position: absolute;
+    top: 690px;
+    left: 28px;
+}
+
+#ascrail2000-hr{
+    opacity: 0 !important;
+}
+
+#ascrail2000{
+    width: 3px !important;
+    height: 305px !important;
+    left: 1502.5px !important;
+    background: linear-gradient(to right, #080007 67%, #2f0a5d 67%);
+}
+
+#ascrail2000 .nicescroll-cursors{
+    width: 13px !important;
+    height: 145px !important;
+    background: #1f004f !important;
+    right: -5px !important;
+}
+
+/* =======================================
+        tournament-part css end
+========================================== */
+
+/* =======================================
+        payment-part css start
+========================================== */
+
+#payment-part{
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: drop-shadow(0 6px 0 #3a0090);
+}
+
+#payment-part .payment-left{
+    margin: 30px 0;
+
+}
+
+#payment-part .payment-left h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: -4px 5px 0px rgba(88, 19, 184, 1);
+}
+
+#payment-part .payment-left .button{
+    position: relative;
+}
+
+#payment-part .payment-left .button input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #3a0090;
+    padding: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+#payment-part .payment-left .button input::placeholder{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3a0090;
+}
+
+#payment-part .payment-left .button button{
+    background: transparent;
+    padding: 10px 15px;
+    border: 1px solid #3a0090;
+    font-size: 16px;
+    color: #3a0090;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+#payment-part .payment-right{
+    margin: 30px 0;
+    margin-left: 130px;
+}
+
+#payment-part .payment-right h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: -4px 5px 0px rgba(88, 19, 184, 1);
+}
+
+#payment-part .payment-right .img{
+    margin-top: 15px;
+}
+
+#payment-part .payment-right .img img{
+    margin-right: 20px;
+    -webkit-box-shadow: 7px 5px 2px 0px rgba(58,0,144,1);
+-moz-box-shadow: 7px 5px 2px 0px rgba(58,0,144,1);
+box-shadow: 7px 5px 2px 0px rgba(58,0,144,1);
+}
+
+/* =======================================
+        payment-part css end
+========================================== */
+
+/* =======================================
+        footer-part css start
+========================================== */
+
+#footer-part{
+    background: #0b001b;
+    padding-bottom: 70px;
+}
+
+#footer-part .footer-item{
+    margin-top: 60px;
+}
+
+#footer-part .important-link{
+    margin-left: 30px;
+}
+
+#footer-part .footer-item h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#footer-part .footer-item p{
+    width: 360px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffff;
+    line-height: 26px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#footer-part .footer-item .icon a i{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px 15px;
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: drop-shadow(0 3px 0 #3a0090);
+    margin-right: 15px;
+    transition: .5s;
+}
+
+#footer-part .footer-item .icon a:hover i{
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    filter: drop-shadow(0 6px 0 #661355);
+}
+
+#footer-part .footer-item .main{
+    display: flex;
+}
+
+#footer-part .footer-item .main .left-link{
+    width: 50%;
+}
+
+#footer-part .footer-item .main .left-link ul li{
+    padding-top: 30px;
+}
+
+#footer-part .footer-item .main .left-link ul li a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: .5s;
+}
+
+#footer-part .footer-item .main .right-link{
+    width: 50%;
+}
+
+#footer-part .footer-item .main .right-link ul li{
+    padding-top: 30px;
+}
+
+#footer-part .footer-item .main .right-link ul li a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: .5s;
+}
+
+#footer-part .footer-item .main .left-link ul li a:hover{
+    color: #ff39dc;
+}
+
+#footer-part .footer-item .main .right-link ul li a:hover{
+    color: #ff39dc;
+}
+
+#footer-part .footer-item .security-info{
+    display: flex;
+}
+
+#footer-part .footer-item .security-info .img{
+    margin-top: 30px;
+}
+
+#footer-part .footer-item .security-info .text p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+#footer-part .footer-item .security-info .text span{
+    display: block;
+}
+
+#footer-part .footer-item .bottom-info{
+    margin-top: -20px;
+}
+
+/* =======================================
+        footer-part css end
+========================================== */
+
+/* =======================================
+        designer-part css start
+========================================== */
+
+#designer-part{
+    background: #0b001b;
+}
+
+#designer-part .designer-text{
+   text-align: center;
+   position: relative;
+}
+
+#designer-part .designer-text p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#designer-part .designer-text p i{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#designer-part .designer-text p::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to bottom, #000000 67%, #290a59 51%);
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+}
+
+#designer-part .designer-text .designer-animation{
+    width: 10%;
+    height: 2px;
+    background: rgb(58,16,123);
+    background: linear-gradient(90deg, rgba(58,16,123,0.2) 12%, rgba(97,22,210,1) 51%, rgba(58,16,123,0.2) 87%);
+    position: absolute;
+    top: -22px;
+    left: 0;
+    animation: designer-animation 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes designer-animation{
+    0%{
+        left: 0;
+    }
+    
+    100%{
+        left: 90%;
+    }
+}
+
+/* =======================================
+        designer-part css end
+========================================== */
