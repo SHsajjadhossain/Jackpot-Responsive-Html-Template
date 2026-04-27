@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <title>Roulette – Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/login.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+<div class="bg-layer"></div>
+<div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div>
+<div class="float-chip fc1">🃏</div><div class="float-chip fc2">🎯</div>
+<div class="float-chip fc3">💎</div><div class="float-chip fc4">🎲</div>
+
+<!-- ══ NAVBAR ══ -->
+<!-- <nav class="site-nav">
+  <a href="#" class="brand">
+    <svg width="24" height="24" viewBox="0 0 24 24"><defs><linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c158f5"/><stop offset="100%" stop-color="#f5a623"/></linearGradient></defs><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26Z" fill="url(#bg1)"/></svg>
+    Roulette
+  </a>
+  <div class="nav-desktop">
+    <a href="#" class="nlink">Home</a>
+    <a href="#" class="nlink">About us</a>
+    <a href="#" class="nlink">Games</a>
+    <a href="#" class="nlink">Pricing</a>
+    <a href="#" class="nlink">FAQ</a>
+    <a href="signup.html" class="btn-ns">Signup</a>
+    <a href="login.html" class="btn-nl">Login</a>
+  </div>
+  <button class="ham-btn" id="hamBtn" onclick="toggleNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav> -->
+
+<!-- Mobile Drawer -->
+<div class="nav-drawer" id="navDrawer">
+  <a href="#" class="nlink">Home</a>
+  <a href="#" class="nlink">About us</a>
+  <a href="#" class="nlink">Games</a>
+  <a href="#" class="nlink">Pricing</a>
+  <a href="#" class="nlink">FAQ</a>
+  <div class="drawer-btns">
+    <a href="signup.html" class="btn-ns">Signup</a>
+    <a href="login.html" class="btn-nl">Login</a>
+  </div>
+</div>
+
+<!-- ══ MAIN ══ -->
+<div class="page-wrapper">
+  <div class="login-box">
+
+    <!-- LEFT PROMO -->
+    <div class="promo">
+      <div class="promo-inner">
+        <div class="promo-brand">
+          <svg width="24" height="24" viewBox="0 0 24 24"><defs><linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c158f5"/><stop offset="100%" stop-color="#f5a623"/></linearGradient></defs><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26Z" fill="url(#bg2)"/></svg>
+          <a href="index.html">Roulette</a>
+        </div>
+        <p class="promo-sub">Your Lucky Break Awaits</p>
+        <div class="jackpot-card">
+          <div class="lbl">Today's Jackpot</div>
+          <div class="amt" id="jpAmt">$24,777</div>
+          <div class="sub">Updated live every minute</div>
+        </div>
+        <ul class="features">
+          <li><svg class="feat-icon" viewBox="0 0 24 24" fill="#f5a623"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></svg>Instant deposits &amp; withdrawals</li>
+          <li><svg class="feat-icon" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>256-bit SSL encryption</li>
+          <li><svg class="feat-icon" viewBox="0 0 24 24" fill="#f5a623"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>200% welcome bonus</li>
+          <li><svg class="feat-icon" viewBox="0 0 24 24" fill="#f5a623"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>24/7 live support</li>
+          <li><svg class="feat-icon" viewBox="0 0 24 24" fill="#f5a623"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>Play on any device</li>
+        </ul>
+      </div>
+      <div class="spin-wrap"><span class="spin-emoji">🎡</span></div>
+    </div>
+
+    <!-- RIGHT FORM -->
+    <div class="form-panel">
+      <div class="card-topbar"></div>
+      <div class="form-head">
+        <div class="icon-ring">
+          <svg viewBox="0 0 24 24" fill="white"><path d="M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"/></svg>
+        </div>
+        <h2>Welcome Back</h2>
+        <p>Sign in to continue playing</p>
+      </div>
+
+      <label class="flabel">Email or Username</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+        <input type="text" class="fc" id="lid" placeholder="john@example.com" autocomplete="username" inputmode="email">
+      </div>
+      <label class="flabel">Password</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+        <input type="password" class="fc" id="lpw" placeholder="Your password" autocomplete="current-password">
+        <button type="button" class="eye-btn" id="le1" onclick="toggleEye('lpw','le1')">
+          <svg viewBox="0 0 24 24" fill="#9d8ec5" id="le1svg" width="18" height="18"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        </button>
+      </div>
+
+      <div class="meta-row">
+        <div class="chk-row">
+          <input type="checkbox" id="rem">
+          <label for="rem">Remember me</label>
+        </div>
+        <a href="#" class="forgot-link" onclick="openModal()">Forgot password?</a>
+      </div>
+
+      <button class="btn-cta" id="loginBtn" onclick="doLogin()">🎮 Login to Play</button>
+      <div class="err-msg" id="errMsg">⚠️ Invalid email or password. Try again.</div>
+
+      <div class="divider">or continue with</div>
+      <div class="social-row">
+        <button class="soc-btn">
+          <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          <span>Google</span>
+        </button>
+        <button class="soc-btn">
+          <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+          <span>Facebook</span>
+        </button>
+        <button class="soc-btn">
+          <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#fff"/></svg>
+          <span>Twitter</span>
+        </button>
+      </div>
+      <div class="auth-footer">Don't have an account? <a href="signup.html">Create one free</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ FORGOT PASSWORD MODAL ══ -->
+<div class="modal-bd" id="forgotModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">×</button>
+
+    <!-- Step 1: Email input -->
+    <div id="ms1">
+      <div class="modal-title">🔑 Reset Password</div>
+      <p class="modal-sub">Enter your email to receive a 6-digit reset code</p>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <input type="email" class="fc" id="femail" placeholder="your@email.com" inputmode="email" autocomplete="email">
+      </div>
+      <button class="btn-cta" onclick="sendOTP()">📨 Send Reset Code</button>
+    </div>
+
+    <!-- Step 2: OTP -->
+    <div id="ms2" style="display:none">
+      <div class="modal-title">🔢 Enter Code</div>
+      <p class="modal-sub">We sent a 6-digit code to <strong id="maskedEm" style="color:var(--gold)"></strong></p>
+      <div class="otp-row">
+        <input class="otp-inp" maxlength="1" oninput="otpMove(this,0)" inputmode="numeric">
+        <input class="otp-inp" maxlength="1" oninput="otpMove(this,1)" inputmode="numeric">
+        <input class="otp-inp" maxlength="1" oninput="otpMove(this,2)" inputmode="numeric">
+        <input class="otp-inp" maxlength="1" oninput="otpMove(this,3)" inputmode="numeric">
+        <input class="otp-inp" maxlength="1" oninput="otpMove(this,4)" inputmode="numeric">
+        <input class="otp-inp" maxlength="1" oninput="otpMove(this,5)" inputmode="numeric">
+      </div>
+      <button class="btn-cta" onclick="verifyOTP()">✅ Verify Code</button>
+      <div class="resend-row">Didn't get it? <a href="#" onclick="resendOTP(event)">Resend</a> <span id="rtimer" style="color:var(--text-muted)"></span></div>
+    </div>
+
+    <!-- Step 3: New password -->
+    <div id="ms3" style="display:none">
+      <div class="modal-title">🔐 New Password</div>
+      <p class="modal-sub">Create a strong new password</p>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+        <input type="password" class="fc" id="np1" placeholder="New password" autocomplete="new-password">
+        <button type="button" class="eye-btn" id="me1" onclick="toggleEye('np1','me1')">
+          <svg viewBox="0 0 24 24" fill="#9d8ec5" id="me1svg" width="18" height="18"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        </button>
+      </div>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+        <input type="password" class="fc" id="np2" placeholder="Confirm new password" autocomplete="new-password">
+      </div>
+      <button class="btn-cta" id="rpBtn" onclick="resetPw()">💾 Update Password</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  /* ── Nav ── */
+  function toggleNav(){
+    var d=document.getElementById('navDrawer'),b=document.getElementById('hamBtn');
+    var o=d.classList.toggle('open');b.classList.toggle('open',o);
+  }
+  document.addEventListener('click',function(e){
+    var d=document.getElementById('navDrawer'),b=document.getElementById('hamBtn');
+    if(d.classList.contains('open')&&!d.contains(e.target)&&!b.contains(e.target)){
+      d.classList.remove('open');b.classList.remove('open');
+    }
+  });
+
+  /* ── Jackpot counter ── */
+  var jp=24777;
+  setInterval(function(){jp+=Math.floor(Math.random()*50)+5;document.getElementById('jpAmt').textContent='$'+jp.toLocaleString();},3000);
+
+  /* ── Login ── */
+  function doLogin(){
+    var id=document.getElementById('lid').value.trim();
+    var pw=document.getElementById('lpw').value;
+    if(!id){sk('lid');return;}
+    if(!pw){sk('lpw');return;}
+    var btn=document.getElementById('loginBtn');
+    btn.textContent='⏳ Logging in…';btn.disabled=true;
+    document.getElementById('errMsg').style.display='none';
+    setTimeout(function(){
+      if(pw.length>=3){
+        btn.textContent='✅ Welcome back! 🎰';
+        btn.style.background='linear-gradient(135deg,#2ecc71,#1a8f52)';
+      }else{
+        btn.textContent='🎮 Login to Play';btn.disabled=false;btn.style.background='';
+        document.getElementById('errMsg').style.display='block';
+        sk('lid');sk('lpw');
+      }
+    },1500);
+  }
+  document.addEventListener('keypress',function(e){
+    if(e.key==='Enter'&&(document.activeElement.id==='lid'||document.activeElement.id==='lpw'))doLogin();
+  });
+  function sk(id){var e=document.getElementById(id);e.classList.add('shake');setTimeout(function(){e.classList.remove('shake');},400);}
+
+  /* ── Toggle eye ── */
+  function toggleEye(inputId,btnId){
+    var inp=document.getElementById(inputId);
+    var isPass=inp.type==='password';
+    inp.type=isPass?'text':'password';
+    var path=document.getElementById(btnId+'svg').querySelector('path');
+    path.setAttribute('d',isPass
+      ?'M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27z'
+      :'M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z');
+  }
+
+  /* ── Modal ── */
+  function openModal(){document.getElementById('forgotModal').classList.add('show');}
+  function closeModal(){
+    document.getElementById('forgotModal').classList.remove('show');
+    document.getElementById('ms1').style.display='block';
+    document.getElementById('ms2').style.display='none';
+    document.getElementById('ms3').style.display='none';
+    document.getElementById('femail').value='';
+    document.querySelectorAll('.otp-inp').forEach(function(i){i.value='';});
+    clearInterval(timerInt);document.getElementById('rtimer').textContent='';
+  }
+  document.getElementById('forgotModal').addEventListener('click',function(e){if(e.target===this)closeModal();});
+
+  function sendOTP(){
+    var em=document.getElementById('femail').value.trim();
+    if(!em||!/\S+@\S+\.\S+/.test(em)){sk('femail');return;}
+    var masked=em.replace(/(.{2})(.*)(@.*)/,'$1****$3');
+    document.getElementById('maskedEm').textContent=masked;
+    document.getElementById('ms1').style.display='none';
+    document.getElementById('ms2').style.display='block';
+    startTimer(60);
+    document.querySelector('.otp-inp').focus();
+  }
+
+  function otpMove(el,idx){
+    if(el.value&&idx<5)document.querySelectorAll('.otp-inp')[idx+1].focus();
+  }
+
+  function verifyOTP(){
+    var code=[...document.querySelectorAll('.otp-inp')].map(function(i){return i.value;}).join('');
+    if(code.length<6){document.querySelectorAll('.otp-inp').forEach(function(i){i.classList.add('shake');});setTimeout(function(){document.querySelectorAll('.otp-inp').forEach(function(i){i.classList.remove('shake');});},400);return;}
+    document.getElementById('ms2').style.display='none';
+    document.getElementById('ms3').style.display='block';
+  }
+
+  function resetPw(){
+    var p1=document.getElementById('np1').value;
+    var p2=document.getElementById('np2').value;
+    if(p1.length<8){sk('np1');return;}
+    if(p1!==p2){sk('np2');return;}
+    var btn=document.getElementById('rpBtn');
+    btn.textContent='⏳ Updating…';btn.disabled=true;
+    setTimeout(function(){
+      btn.textContent='✅ Password Updated!';
+      btn.style.background='linear-gradient(135deg,#2ecc71,#1a8f52)';
+      setTimeout(function(){closeModal();btn.textContent='💾 Update Password';btn.disabled=false;btn.style.background='';},1800);
+    },1500);
+  }
+
+  var timerInt;
+  function startTimer(s){
+    clearInterval(timerInt);
+    timerInt=setInterval(function(){
+      if(s<=0){clearInterval(timerInt);document.getElementById('rtimer').textContent='';return;}
+      document.getElementById('rtimer').textContent='('+s--+'s)';
+    },1000);
+  }
+  function resendOTP(e){e.preventDefault();startTimer(60);}
+</script>
+</body>
+</html>

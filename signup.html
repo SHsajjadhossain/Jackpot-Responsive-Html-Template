@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <title>Roulette – Sign Up</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/signup.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    
+
+    
+  </style>
+</head>
+<body>
+<div class="bg-layer"></div>
+<div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div>
+<div class="float-chip fc1">🎰</div><div class="float-chip fc2">♠️</div>
+<div class="float-chip fc3">🎲</div><div class="float-chip fc4">♣️</div>
+
+<!-- ══ NAVBAR ══ -->
+<!-- Desktop links -->
+<!-- <nav class="site-nav">
+  <a href="#" class="brand">
+    <svg width="24" height="24" viewBox="0 0 24 24"><defs><linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c158f5"/><stop offset="100%" stop-color="#f5a623"/></linearGradient></defs><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26Z" fill="url(#bg1)"/></svg>
+    Roulette
+  </a>
+  <div class="nav-desktop">
+    <a href="#" class="nlink">Home</a>
+    <a href="#" class="nlink">About us</a>
+    <a href="#" class="nlink">Games</a>
+    <a href="#" class="nlink">Pricing</a>
+    <a href="#" class="nlink">FAQ</a>
+    <a href="signup.html" class="btn-ns">Signup</a>
+    <a href="login.html" class="btn-nl">Login</a>
+  </div>
+  <button class="ham-btn" id="hamBtn" onclick="toggleNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav> -->
+<!-- Hamburger -->
+
+<!-- Mobile Drawer -->
+<div class="nav-drawer" id="navDrawer">
+  <a href="#" class="nlink">Home</a>
+  <a href="#" class="nlink">About us</a>
+  <a href="#" class="nlink">Games</a>
+  <a href="#" class="nlink">Pricing</a>
+  <a href="#" class="nlink">FAQ</a>
+  <div class="drawer-btns">
+    <a href="signup.html" class="btn-ns">Signup</a>
+    <a href="login.html" class="btn-nl">Login</a>
+  </div>
+</div>
+
+<!-- ══ MAIN ══ -->
+<div class="page-wrapper">
+  <div class="auth-card">
+    <div class="card-topbar"></div>
+
+    <div class="logo-badge">
+      <div class="icon-ring">
+        <svg viewBox="0 0 24 24" fill="white"><path d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+      </div>
+      <h2>Create Account</h2>
+      <p>Join the ultimate gaming experience</p>
+    </div>
+
+    <!-- Step dots -->
+    <div class="step-dots">
+      <div class="dot active" id="d1"></div>
+      <div class="dot" id="d2"></div>
+      <div class="dot" id="d3"></div>
+    </div>
+
+    <!-- ── STEP 1 ── -->
+    <div class="step-panel active" id="step1">
+      <p class="step-label">Step 1 of 3 — Personal Info</p>
+      <div class="form-row">
+        <div class="half">
+          <label class="flabel">First Name</label>
+          <div class="inp-wrap">
+            <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+            <input type="text" class="fc" id="fn" placeholder="John" autocomplete="given-name">
+          </div>
+        </div>
+        <div class="half">
+          <label class="flabel">Last Name</label>
+          <div class="inp-wrap">
+            <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+            <input type="text" class="fc" id="ln" placeholder="Doe" autocomplete="family-name">
+          </div>
+        </div>
+      </div>
+      <label class="flabel">Email Address</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <input type="email" class="fc" id="em" placeholder="john@example.com" autocomplete="email" inputmode="email">
+      </div>
+      <label class="flabel">Phone Number</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        <input type="tel" class="fc" id="ph" placeholder="+880 1X XXXX XXXX" autocomplete="tel" inputmode="tel">
+      </div>
+      <button class="btn-cta" onclick="goStep(2)">Continue →</button>
+    </div>
+
+    <!-- ── STEP 2 ── -->
+    <div class="step-panel" id="step2">
+      <p class="step-label">Step 2 of 3 — Account Setup</p>
+      <label class="flabel">Username</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        <input type="text" class="fc" id="un" placeholder="lucky_player99" autocomplete="username">
+      </div>
+      <label class="flabel">Password</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+        <input type="password" class="fc" id="pw" placeholder="Min. 8 characters" oninput="checkStr(this.value)" autocomplete="new-password">
+        <button type="button" class="eye-btn" id="e1" onclick="toggleEye('pw','e1')">
+          <svg viewBox="0 0 24 24" fill="#9d8ec5" id="e1svg" width="18" height="18"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        </button>
+      </div>
+      <div class="str-wrap">
+        <div class="sbar"><div class="sfill" id="sf"></div></div>
+        <div class="slabel" id="sl">Enter a password</div>
+      </div>
+      <label class="flabel">Confirm Password</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+        <input type="password" class="fc" id="cp" placeholder="Re-enter password" autocomplete="new-password">
+        <button type="button" class="eye-btn" id="e2" onclick="toggleEye('cp','e2')">
+          <svg viewBox="0 0 24 24" fill="#9d8ec5" id="e2svg" width="18" height="18"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        </button>
+      </div>
+      <div class="btn-row">
+        <button class="btn-cta btn-back" onclick="goStep(1)">←</button>
+        <button class="btn-cta" style="flex:1" onclick="goStep(3)">Continue →</button>
+      </div>
+    </div>
+
+    <!-- ── STEP 3 ── -->
+    <div class="step-panel" id="step3">
+      <p class="step-label">Step 3 of 3 — Preferences</p>
+      <label class="flabel">Country</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <select class="fc" id="co" style="padding-left:38px">
+          <option value="">Select country…</option>
+          <option>🇧🇩 Bangladesh</option><option>🇺🇸 United States</option>
+          <option>🇬🇧 United Kingdom</option><option>🇮🇳 India</option>
+          <option>🇨🇦 Canada</option><option>🇦🇺 Australia</option>
+        </select>
+      </div>
+      <label class="flabel">Date of Birth</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+        <input type="date" class="fc" id="dob" style="color-scheme:dark">
+      </div>
+      <label class="flabel">Preferred Currency</label>
+      <div class="inp-wrap">
+        <svg class="iico" viewBox="0 0 24 24" fill="#9b59f5"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+        <select class="fc" id="cur" style="padding-left:38px">
+          <option value="">Select currency…</option>
+          <option>🇧🇩 BDT – Taka</option><option>🇺🇸 USD – Dollar</option>
+          <option>🇪🇺 EUR – Euro</option><option>🇬🇧 GBP – Pound</option>
+        </select>
+      </div>
+      <div class="chk-row">
+        <input type="checkbox" id="terms">
+        <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+      </div>
+      <div class="chk-row">
+        <input type="checkbox" id="promo">
+        <label for="promo">Send me exclusive bonuses &amp; promotions 🎁</label>
+      </div>
+      <div class="btn-row">
+        <button class="btn-cta btn-back" onclick="goStep(2)">←</button>
+        <button class="btn-cta" style="flex:1" id="sbtn" onclick="submitForm()">🚀 Create My Account</button>
+      </div>
+    </div>
+
+    <div class="divider">or sign up with</div>
+    <div class="social-row">
+      <button class="soc-btn">
+        <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+        <span>Google</span>
+      </button>
+      <button class="soc-btn">
+        <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/></svg>
+        <span>Facebook</span>
+      </button>
+      <button class="soc-btn">
+        <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#fff"/></svg>
+        <span>Twitter</span>
+      </button>
+    </div>
+    <div class="auth-footer">Already have an account? <a href="login.html">Log in</a></div>
+  </div>
+</div>
+
+<script>
+  /* ── Nav toggle ── */
+  function toggleNav(){
+    var d=document.getElementById('navDrawer');
+    var b=document.getElementById('hamBtn');
+    var open=d.classList.toggle('open');
+    b.classList.toggle('open',open);
+  }
+  document.addEventListener('click',function(e){
+    var d=document.getElementById('navDrawer');
+    var b=document.getElementById('hamBtn');
+    if(d.classList.contains('open')&&!d.contains(e.target)&&!b.contains(e.target)){
+      d.classList.remove('open');b.classList.remove('open');
+    }
+  });
+
+  /* ── Step navigation ── */
+  function goStep(n){
+    if(n===2&&!v1())return;
+    if(n===3&&!v2())return;
+    document.querySelectorAll('.step-panel').forEach(function(p){p.classList.remove('active')});
+    document.getElementById('step'+n).classList.add('active');
+    for(var i=1;i<=3;i++){
+      var d=document.getElementById('d'+i);
+      d.className='dot'+(i===n?' active':i<n?' done':'');
+    }
+    // Scroll card into view on mobile
+    document.querySelector('.auth-card').scrollIntoView({behavior:'smooth',block:'start'});
+  }
+
+  function v1(){
+    var fn=document.getElementById('fn').value.trim();
+    var ln=document.getElementById('ln').value.trim();
+    var em=document.getElementById('em').value.trim();
+    if(!fn){sk('fn');return false;}
+    if(!ln){sk('ln');return false;}
+    if(!em||!/\S+@\S+\.\S+/.test(em)){sk('em');return false;}
+    return true;
+  }
+  function v2(){
+    if(!document.getElementById('un').value.trim()){sk('un');return false;}
+    if(document.getElementById('pw').value.length<8){sk('pw');return false;}
+    if(document.getElementById('pw').value!==document.getElementById('cp').value){sk('cp');return false;}
+    return true;
+  }
+  function sk(id){var e=document.getElementById(id);e.classList.add('shake');setTimeout(function(){e.classList.remove('shake');},400);}
+
+  /* ── Password strength ── */
+  function checkStr(v){
+    var s=0;
+    if(v.length>=8)s++;if(/[A-Z]/.test(v))s++;if(/[0-9]/.test(v))s++;if(/[^A-Za-z0-9]/.test(v))s++;
+    var c=['#e74c3c','#e67e22','#f1c40f','#2ecc71'],l=['Weak','Fair','Good','Strong'],w=['25%','50%','75%','100%'];
+    var sf=document.getElementById('sf'),sl=document.getElementById('sl');
+    if(!v){sf.style.width='0%';sl.textContent='Enter a password';sl.style.color='var(--text-muted)';return;}
+    sf.style.width=w[s-1]||'15%';sf.style.background=c[s-1]||'#e74c3c';
+    sl.textContent=l[s-1]||'Too short';sl.style.color=c[s-1]||'#e74c3c';
+  }
+
+  /* ── Toggle eye ── */
+  function toggleEye(inputId,btnId){
+    var inp=document.getElementById(inputId);
+    var isPass=inp.type==='password';
+    inp.type=isPass?'text':'password';
+    var path=document.getElementById(btnId+'svg').querySelector('path');
+    path.setAttribute('d',isPass
+      ?'M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27z'
+      :'M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z');
+  }
+
+  /* ── Submit ── */
+  function submitForm(){
+    if(!document.getElementById('terms').checked){
+      var r=document.querySelector('#step3 .chk-row');r.classList.add('shake');setTimeout(function(){r.classList.remove('shake');},400);return;
+    }
+    var btn=document.getElementById('sbtn');
+    btn.textContent='⏳ Creating Account…';btn.disabled=true;
+    setTimeout(function(){
+      btn.textContent='✅ Account Created!';
+      btn.style.background='linear-gradient(135deg,#2ecc71,#1a8f52)';
+      setTimeout(function(){window.location.href='login.html';},1800);
+    },2000);
+  }
+</script>
+</body>
+</html>

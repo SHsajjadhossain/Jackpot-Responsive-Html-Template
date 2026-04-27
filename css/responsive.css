@@ -1167,3 +1167,242 @@
 
 
 }
+
+/* ==============================================
+            login responsive css start
+    ================================================= */
+
+/* ══════════════════════════════
+       RESPONSIVE BREAKPOINTS
+    ══════════════════════════════ */
+
+    /* ── Large Desktop: 1200px+ ── */
+    @media(min-width:1200px){
+      .login-box{max-width:960px}
+      .promo{padding:52px 36px}
+      .form-panel{padding:52px 44px}
+      .promo-brand{font-size:1.8rem}
+      .jackpot-card .amt{font-size:2.6rem}
+      .fc{font-size:.95rem;padding:13px 40px 13px 40px}
+      .btn-cta{padding:15px;font-size:.95rem}
+    }
+
+    /* ── Desktop: 1024px–1199px ── */
+    @media(min-width:1024px) and (max-width:1199px){
+      .login-box{max-width:880px}
+      .promo{padding:44px 28px;flex:0 0 38%}
+      .form-panel{padding:44px 36px}
+    }
+
+    /* ── Small Desktop: 768px–1023px ── */
+    @media(min-width:768px) and (max-width:1023px){
+      .login-box{max-width:720px;flex-direction:column}
+      .promo{
+        flex:none;
+        padding:28px 32px;
+        flex-direction:row;align-items:center;gap:24px;
+      }
+      .promo-inner:first-child{flex:1}
+      .spin-wrap{flex-shrink:0}
+      .spin-emoji{font-size:4rem}
+      .promo-sub{margin-bottom:12px}
+      .jackpot-card{margin-bottom:0}
+      .features{display:none} /* hide features in horizontal layout */
+      .form-panel{padding:36px 36px}
+    }
+
+    /* ── Tablet portrait: 600px–767px ── */
+    @media(min-width:600px) and (max-width:767px){
+      .ham-btn{display:flex}
+      .nav-desktop{display:none}
+      .page-wrapper{padding:24px 16px}
+      .login-box{max-width:520px;flex-direction:column}
+      .promo{flex:none;padding:24px 28px;flex-direction:row;align-items:center;gap:20px}
+      .promo-inner:first-child{flex:1}
+      .spin-wrap{flex-shrink:0}
+      .spin-emoji{font-size:3.5rem}
+      .jackpot-card{margin-bottom:0}
+      .promo-sub,.features{display:none}
+      .form-panel{padding:32px 32px}
+    }
+
+    /* ── Large mobile: 480px–599px ── */
+    @media(min-width:480px) and (max-width:599px){
+      .ham-btn{display:flex}
+      .nav-desktop{display:none}
+      .site-nav{padding:0 18px}
+      .page-wrapper{padding:20px 14px}
+      .login-box{flex-direction:column;border-radius:20px;max-width:460px}
+      .promo{flex:none;padding:20px 22px;flex-direction:row;align-items:center;gap:16px}
+      .promo-inner:first-child{flex:1}
+      .spin-wrap{flex-shrink:0}
+      .spin-emoji{font-size:3rem}
+      .jackpot-card{padding:12px 14px;margin-bottom:0}
+      .jackpot-card .amt{font-size:1.8rem}
+      .promo-sub,.features{display:none}
+      .form-panel{padding:28px 24px}
+      .form-head h2{font-size:1.2rem}
+      .fc{font-size:.88rem}
+      .btn-cta{font-size:.86rem;padding:13px}
+    }
+
+    /* ── Mobile: up to 479px ── */
+    @media(max-width:479px){
+      .ham-btn{display:flex}
+      .nav-desktop{display:none}
+      .site-nav{padding:0 14px;height:58px}
+      .nav-drawer{top:58px}
+      .brand{font-size:1.2rem}
+      .page-wrapper{padding:16px 12px;align-items:flex-start;padding-top:20px}
+      .login-box{flex-direction:column;border-radius:18px;max-width:100%}
+      /* Hide promo on mobile, show compact jackpot banner instead */
+      .promo{flex:none;padding:16px 18px;flex-direction:row;align-items:center;gap:12px}
+      .promo-inner:first-child{flex:1}
+      .spin-wrap{flex-shrink:0}
+      .spin-emoji{font-size:2.5rem}
+      .promo-brand{font-size:1.3rem}
+      .promo-sub,.features{display:none}
+      .jackpot-card{padding:10px 12px;margin-bottom:0;border-radius:10px}
+      .jackpot-card .lbl{font-size:.68rem}
+      .jackpot-card .amt{font-size:1.6rem}
+      .jackpot-card .sub{display:none}
+      .form-panel{padding:22px 18px}
+      .card-topbar{margin-bottom:20px}
+      .form-head{margin-bottom:18px}
+      .icon-ring{width:58px;height:58px}
+      .icon-ring svg{width:27px;height:27px}
+      .form-head h2{font-size:1.15rem}
+      .form-head p{font-size:.82rem}
+      .flabel{font-size:.82rem}
+      .inp-wrap{margin-bottom:12px}
+      .fc{padding:11px 34px 11px 36px;font-size:.87rem;border-radius:10px}
+      .meta-row{gap:6px}
+      .chk-row label{font-size:.82rem}
+      .forgot-link{font-size:.82rem}
+      .btn-cta{padding:13px;font-size:.83rem;border-radius:11px}
+      .divider{margin:12px 0;font-size:.76rem}
+      .social-row{gap:8px}
+      .soc-btn{padding:9px 4px;font-size:.76rem;border-radius:9px;gap:5px}
+      .soc-btn svg{width:15px;height:15px}
+      .auth-footer{font-size:.82rem;margin-top:14px}
+      .otp-inp{width:38px;height:46px;font-size:1.1rem;border-radius:9px}
+      .float-chip{display:none}
+    }
+
+    /* ── Extra small: 320px – 359px ── */
+    @media(max-width:359px){
+      .form-panel{padding:18px 14px}
+      .form-head h2{font-size:1.05rem}
+      .fc{font-size:.84rem;padding:10px 32px 10px 34px}
+      .btn-cta{font-size:.78rem;padding:12px}
+      .otp-row{gap:5px}
+      .otp-inp{width:34px;height:42px;font-size:1rem}
+      .soc-btn span{display:none}
+    }
+
+
+    /* ==============================================
+            login responsive css end
+    ================================================= */
+
+    /* ==============================================
+            signup responsive css start
+    ================================================= */
+
+    /* ══════════════════════════════
+       RESPONSIVE BREAKPOINTS
+    ══════════════════════════════ */
+
+    /* ── Large Desktop: 1200px+ ── */
+    @media(min-width:1200px){
+      .auth-card{padding:52px 48px;max-width:520px}
+      .logo-badge h2{font-size:1.55rem}
+      .fc{padding:13px 40px 13px 40px;font-size:.95rem}
+      .btn-cta{padding:15px;font-size:.95rem}
+    }
+
+    /* ── Desktop: 1024px – 1199px ── */
+    @media(min-width:1024px) and (max-width:1199px){
+      .auth-card{padding:48px 44px}
+    }
+
+    /* ── Small Desktop / Large Tablet: 768px – 1023px ── */
+    @media(min-width:768px) and (max-width:1023px){
+      .auth-card{padding:40px 36px;max-width:480px}
+      .logo-badge h2{font-size:1.3rem}
+      .icon-ring{width:62px;height:62px}
+    }
+
+    /* ── Tablet portrait: 600px – 767px ── */
+    @media(min-width:600px) and (max-width:767px){
+      .ham-btn{display:flex}
+      .nav-desktop{display:none}
+      .auth-card{padding:36px 32px;max-width:480px;border-radius:20px}
+      .logo-badge h2{font-size:1.25rem}
+      .icon-ring{width:60px;height:60px}
+      .fc{font-size:.9rem}
+    }
+
+    /* ── Large mobile / Small tablet: 480px – 599px ── */
+    @media(min-width:480px) and (max-width:599px){
+      .ham-btn{display:flex}
+      .nav-desktop{display:none}
+      .site-nav{padding:0 18px}
+      .auth-card{padding:30px 26px;border-radius:18px}
+      .logo-badge h2{font-size:1.2rem}
+      .logo-badge p{font-size:.84rem}
+      .icon-ring{width:58px;height:58px}
+      .icon-ring svg{width:28px;height:28px}
+      .step-label{font-size:.72rem}
+      .fc{padding:11px 36px 11px 36px;font-size:.88rem}
+      .btn-cta{font-size:.85rem;padding:13px}
+      .soc-btn{font-size:.78rem;padding:9px 4px}
+    }
+
+    /* ── Mobile: up to 479px ── */
+    @media(max-width:479px){
+      .ham-btn{display:flex}
+      .nav-desktop{display:none}
+      .site-nav{padding:0 14px;height:58px}
+      .nav-drawer{top:58px}
+      .brand{font-size:1.2rem}
+      .page-wrapper{padding:20px 12px;align-items:flex-start;padding-top:24px}
+      .auth-card{padding:24px 18px;border-radius:18px;max-width:100%}
+      .card-topbar{margin-bottom:20px}
+      .logo-badge{margin-bottom:14px}
+      .icon-ring{width:56px;height:56px}
+      .icon-ring svg{width:26px;height:26px}
+      .logo-badge h2{font-size:1.15rem}
+      .logo-badge p{font-size:.82rem}
+      .step-dots{margin-bottom:16px}
+      .step-label{font-size:.70rem;letter-spacing:.05em;margin-bottom:12px}
+      /* Stack the name row on very small screens */
+      .form-row{flex-direction:column;gap:0}
+      .flabel{font-size:.82rem;margin-bottom:5px}
+      .inp-wrap{margin-bottom:12px}
+      .iico{width:15px;height:15px}
+      .fc{padding:11px 34px 11px 36px;font-size:.87rem;border-radius:10px}
+      .str-wrap{margin-bottom:12px}
+      .btn-cta{padding:13px;font-size:.82rem;border-radius:11px;margin-top:4px}
+      .btn-back{flex:0 0 46px;font-size:1rem}
+      .divider{margin:14px 0;font-size:.76rem}
+      .social-row{gap:8px}
+      .soc-btn{padding:9px 4px;font-size:.76rem;border-radius:9px;gap:5px}
+      .soc-btn svg{width:15px;height:15px}
+      .auth-footer{font-size:.82rem;margin-top:16px}
+      .chk-row label{font-size:.80rem}
+      .float-chip{display:none} /* hide on tiny screens to reduce clutter */
+    }
+
+    /* ── Extra small: 320px – 359px ── */
+    @media(max-width:359px){
+      .auth-card{padding:20px 14px}
+      .logo-badge h2{font-size:1.05rem}
+      .fc{font-size:.84rem;padding:10px 32px 10px 34px}
+      .btn-cta{font-size:.78rem;padding:12px}
+      .soc-btn span{display:none} /* icon only on 320px */
+    }
+
+    /* ==============================================
+            signup responsive css end
+    ================================================= */
